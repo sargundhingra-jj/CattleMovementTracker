@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cattle Movement Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/leaflet/dist/leaflet.css" rel="stylesheet" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <h1 class="main-heading">🐄 Cattle Movement Tracker 🐄</h1>
+
+  <!-- 🧭 Map Section Heading -->
+  <h2 class="section-heading">📍 Cattle Locations on Farm Map</h2>
+  <div id="map"></div>
+
+  <div class="chart-table-container">
+
+    <!-- 📊 Chart Section Heading -->
+    <div class="chart-box">
+      <h2 class="sub-heading">📊 Number of Cattle at Each Stop</h2>
+      <canvas id="stopChart"></canvas>
+    </div>
+
+    <!-- 📋 Table Section Heading -->
+    <div class="table-box">
+      <h2 class="sub-heading">📋 Live Cattle Movement Data</h2>
+      <table id="cattleTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Stop</th>
+            <th>Status</th>
+            <th>Travelled</th>
+            <th>Remaining</th>
+            <th>Grazing (s)</th>
+            <th>Walking (s)</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 🔗 Cattle Path Graph Heading -->
+  <h2 class="section-heading">🧭 Cattle Journey Progress (Click Marker to View)</h2>
+  <div id="networkGraph" class="graph-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
