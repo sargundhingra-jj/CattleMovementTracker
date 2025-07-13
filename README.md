@@ -220,7 +220,6 @@ This project is **free for all** - use, modify, and distribute without any restr
 - [ ] Export functionality for reports
 - [ ] Multi-farm support
 
-## 📞 Support
 
 For support, please open an issue in the GitHub repository or contact the development team.
 
