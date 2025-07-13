@@ -224,6 +224,3 @@ This project is **free for all** - use, modify, and distribute without any restr
 - [ ] Multi-farm support
 
 
-
-
-**Made with ❤️ for farmers and cattle management**
