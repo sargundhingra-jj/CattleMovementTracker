@@ -15,7 +15,7 @@ const stopLocations = [
   [22.5730, 88.3660], [22.5735, 88.3670], [22.5740, 88.3680]
 ];
 
-// Load data
+// Load_data
 fetch("data/cattles.json")
   .then(res => res.json())
   .then(data => {
