@@ -75,6 +75,9 @@ A real-time web application for monitoring and tracking cattle movements across 
   - Remaining Distance
   - Grazing Time
   - Walking Time
+  
+<img width="1919" height="866" alt="Screenshot 2025-07-13 201216" src="https://github.com/user-attachments/assets/d6ff9cdb-7898-46fc-afb6-9cf965aea520" />
+
 
 ### Journey Progress
 
@@ -221,8 +224,6 @@ This project is **free for all** - use, modify, and distribute without any restr
 - [ ] Multi-farm support
 
 
-For support, please open an issue in the GitHub repository or contact the development team.
 
----
 
 **Made with ❤️ for farmers and cattle management**
